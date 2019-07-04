@@ -18,7 +18,7 @@ class TokensSchema extends SuperSchema {
   }
 
   down () {
-    this.drop('tokens')
+    this.drop('user_tokens')
   }
 }
 
